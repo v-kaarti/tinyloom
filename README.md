@@ -11,3 +11,4 @@ Tinyloom is a compression scheme for scRNA matrices. Tinyloom uses the facts tha
 	- https://linnarssonlab.org/loompy/
 	- http://loom.linnarssonlab.org/
 - https://pypi.org/project/bitarray/ (for efficient bitpacking)
+- https://pypi.org/project/zstandard/ (for Zstd compression)
