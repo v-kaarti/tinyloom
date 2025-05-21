@@ -6,7 +6,7 @@ from bitarray import bitarray
 import zstandard as zstd
 
 
-# get min bits (note that we use signed bits, but in hindsight this was not necessary, but the code works and i dont want to touch it
+# get min bits (note that we use signed bits, but in hindsight this was not necessary, but the code works and i dont want to break it
 def _min_bits(x: int) -> int:
     if x == 0:
         return 1
